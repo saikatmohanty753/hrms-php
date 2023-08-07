@@ -24,9 +24,6 @@
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/js/all.min.js') }}"></script>
         <script src="{{ asset('js/notifications/toastr/toastr.js') }}"></script>
-        <script src="{{ asset('js/vendors.bundle.js') }}"></script>
-        <script src="{{ asset('js/app.bundle.js') }}"></script>
-        <script src="{{ asset('js/datagrid/datatables/datatables.bundle.js') }}"></script>
         <script src="{{ asset('js/custom.js') }}"></script>
 
     </head>
@@ -65,5 +62,6 @@
         </div>
         <script src="{{ asset('js/vendors.bundle.js') }}"></script>
         <script src="{{ asset('js/app.bundle.js') }}"></script>
+        <script src="{{ asset('js/datagrid/datatables/datatables.bundle.js') }}"></script>
     </body>
 </html>
