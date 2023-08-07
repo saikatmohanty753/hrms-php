@@ -51,7 +51,5 @@
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    $('.datatable').dataTable({});
-</script>
+@include('validateform')
 @endsection

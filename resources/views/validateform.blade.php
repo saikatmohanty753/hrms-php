@@ -1,16 +1,6 @@
+<script src="{{ asset('js/vendors.bundle.js') }}"></script>
+<script src="{{ asset('js/app.bundle.js') }}"></script>
+<script src="{{ asset('js/datagrid/datatables/datatables.bundle.js') }}"></script>
 <script type="text/javascript">
-function submitForm() {
-    var form = $("#formSave")
-    $('input[type="text"]').each(function(){
-        console.log('ok');
-        if($(this).val() == ''){
-            $(this).addClass('form-error');
-            return false;
-        }else{
-            $(this).removeClass('form-error');
-            $(this).addClass('form-success');
-        }
-    });
-    return false;
-}
+    $('.datatable').dataTable({});
 </script>
