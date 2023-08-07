@@ -1,0 +1,35 @@
+.ctm-btn-success{
+    display: inline-flex;
+    height: 35px;
+    width: 82px;
+    padding: 0;
+    background: #e34bcf;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ctm-btn-success:hover{
+    background: #b01b9c;
+}
+
+.ctm-btn-success:active{
+    background: #810f71;
+}
+
+.ctm-btn-text, .ctm-btn-icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 10px;
+    color: #fff;
+    height: 100%;
+}
+
+.ctm-btn-icon{
+    font-size: 1.5em;
+    background: rgba(0, 0, 0,0.08);
+}

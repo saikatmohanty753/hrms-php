@@ -38,6 +38,11 @@
                             <span class="nav-link-text" data-i18n="nav.theme_settings_how_it_works">Roles</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ route('users.list') }}" title="How it works" data-filter-tags="theme settings how it works" class=" waves-effect waves-themed">
+                            <span class="nav-link-text" data-i18n="nav.theme_settings_how_it_works">Users</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             @can('master-module')
