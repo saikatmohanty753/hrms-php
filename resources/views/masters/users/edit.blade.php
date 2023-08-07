@@ -22,15 +22,15 @@
                         <input type="hidden" name="id" value="{{ $users->id }}">
                         <div class="row">
                             <div class="col-md-4">
-                                <label>Name</label>
+                                <label>Name <span class="text-danger">*</span></label>
                                 <input type="text" name="name" class="form-control required" placeholder="Name" value="{{ @$users->name }}" autocomplete="off">
                             </div>
                             <div class="col-md-4">
-                                <label>Email</label>
+                                <label>Email <span class="text-danger">*</span></label>
                                 <input type="email" name="email" class="form-control required" placeholder="Email" value="{{ @$users->email }}" autocomplete="off">
                             </div>
                             <div class="col-md-4">
-                                <label>Role</label>
+                                <label>Role <span class="text-danger">*</span></label>
                                 <select name="role_id" class="form-control select2 required" placeholder="Role">
                                     <option value="">Select Role</option>
                                     @foreach ($roles as $role)
@@ -39,7 +39,7 @@
                                 </select>
                             </div>
                             <div class="col-md-4 mt-4">
-                                <label>Username</label>
+                                <label>Username <span class="text-danger">*</span></label>
                                 <input type="text" name="username" class="form-control required" placeholder="Username" value="{{ @$users->username }}" autocomplete="off">
                             </div>
                         </div>
