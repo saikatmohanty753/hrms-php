@@ -25,7 +25,6 @@
         <script src="{{ asset('assets/js/all.min.js') }}"></script>
         <script src="{{ asset('js/notifications/toastr/toastr.js') }}"></script>
         <script src="{{ asset('js/custom.js') }}"></script>
-
     </head>
     <body class="mod-bg-1 nav-function-fixed mod-nav-link header-function-fixed">
         <!-- BEGIN Page Wrapper -->
