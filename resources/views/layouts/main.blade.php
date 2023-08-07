@@ -19,9 +19,16 @@
         <link rel="stylesheet" href="{{ asset('css/themes/cust-theme-7.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/custom-css/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/notifications/toastr/toastr.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/datagrid/datatables/datatables.bundle.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/custom-css/common.css') }}">
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/js/all.min.js') }}"></script>
         <script src="{{ asset('js/notifications/toastr/toastr.js') }}"></script>
+        <script src="{{ asset('js/vendors.bundle.js') }}"></script>
+        <script src="{{ asset('js/app.bundle.js') }}"></script>
+        <script src="{{ asset('js/datagrid/datatables/datatables.bundle.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
+
     </head>
     <body class="mod-bg-1 nav-function-fixed mod-nav-link header-function-fixed">
         <!-- BEGIN Page Wrapper -->

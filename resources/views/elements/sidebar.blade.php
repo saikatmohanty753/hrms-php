@@ -27,20 +27,29 @@
                     <span class="nav-link-text" data-i18n="nav.application_intel">Dashboard</span>
                 </a>
             </li>
+            @can('master-module')
             <li>
                 <a href="#" title="Masters" data-filter-tags="masters" class=" waves-effect waves-themed" aria-expanded="false">
                     <i class="fal fa-cog"></i>
                     <span class="nav-link-text" data-i18n="nav.theme_settings">Masters</span>
                 </a>
                 <ul style="display: none;">
+                    @can('role-module')
                     <li>
                         <a href="{{ route('roles.index') }}" title="How it works" data-filter-tags="theme settings how it works" class=" waves-effect waves-themed">
                             <span class="nav-link-text" data-i18n="nav.theme_settings_how_it_works">Roles</span>
                         </a>
                     </li>
+                    @endcan
+                    @can('user-module')
+                    <li>
+                        <a href="{{ route('users.list') }}" title="How it works" data-filter-tags="theme settings how it works" class=" waves-effect waves-themed">
+                            <span class="nav-link-text" data-i18n="nav.theme_settings_how_it_works">Users</span>
+                        </a>
+                    </li>
+                    @endcan
                 </ul>
             </li>
-            @can('master-module')
             @endcan
         </ul>
         <div class="filter-message js-filter-message bg-success-600"></div>
