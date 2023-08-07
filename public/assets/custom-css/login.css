@@ -1,0 +1,9 @@
+ .bg-gradient{
+    background-color: #7f34a4;
+ }
+.bg-gradient-img {
+    background-image: url('../../img/hr/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
