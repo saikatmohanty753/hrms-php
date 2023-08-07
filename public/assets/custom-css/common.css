@@ -1,7 +1,7 @@
-.ctm-btn-success{
+.ctm-btn-pink{
     display: inline-flex;
     height: 35px;
-    width: 82px;
+    width: 90px;
     padding: 0;
     background: #e34bcf;
     border: none;
@@ -13,12 +13,58 @@
     cursor: pointer;
 }
 
-.ctm-btn-success:hover{
+.ctm-btn-pink:hover{
     background: #b01b9c;
 }
 
-.ctm-btn-success:active{
+.ctm-btn-pink:active{
     background: #810f71;
+}
+
+.ctm-btn-info{
+    display: inline-flex;
+    height: 35px;
+    width: 90px;
+    padding: 0;
+    background: #6e81b6;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ctm-btn-info:hover{
+    background: #1a62c0;
+}
+
+.ctm-btn-info:active{
+    background: #0a2b67;
+}
+
+.ctm-btn-success{
+    display: inline-flex;
+    height: 35px;
+    width: 90px;
+    padding: 0;
+    background: #54ce75;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ctm-btn-success:hover{
+    background: #17e028;
+}
+
+.ctm-btn-success:active{
+    background: #0a672e;
 }
 
 .ctm-btn-text, .ctm-btn-icon{
@@ -32,4 +78,12 @@
 .ctm-btn-icon{
     font-size: 1.5em;
     background: rgba(0, 0, 0,0.08);
+}
+
+.form-error{
+    border: 1px solid red;
+}
+
+.form-success{
+    border: 1px solid green;
 }

@@ -27,6 +27,7 @@
         <script src="{{ asset('js/vendors.bundle.js') }}"></script>
         <script src="{{ asset('js/app.bundle.js') }}"></script>
         <script src="{{ asset('js/datagrid/datatables/datatables.bundle.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
 
     </head>
     <body class="mod-bg-1 nav-function-fixed mod-nav-link header-function-fixed">

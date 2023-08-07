@@ -37,7 +37,7 @@ Route::middleware(['auth'])->group(function(){
             Route::get('/', [MastersController::class,'userMaster'])->name('users.index');
             Route::post('/create', [MastersController::class,'createUserMaster'])->name('users.create');
             Route::get('/list', [MastersController::class,'userList'])->name('users.list');
-            Route::get('/edit/{id}', [MastersController::class,'userEdit'])->name('users.edit');
+            Route::get('/edit/{id?}', [MastersController::class,'userEdit'])->name('users.edit');
             Route::post('/update', [MastersController::class,'userUpdate'])->name('users.update');
             Route::post('/destroy/{id}', [MastersController::class,'userDelete'])->name('users.destroy');
         });
