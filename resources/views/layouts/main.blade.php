@@ -49,7 +49,7 @@
                     <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
                     <footer class="page-footer" role="contentinfo">
                         <div class="d-flex align-items-center flex-1 text-muted">
-                            <span class="hidden-md-down fw-700">2019 © HRMS by&nbsp;<a href='{{ route('dashboard') }}' class='text-primary fw-500' title='hrms' target='_blank'>hrms</a></span>
+                            <span class="hidden-md-down fw-700">2019 © HRMS</span>
                         </div>
                         <div>
                             <ul class="list-table m-0">
