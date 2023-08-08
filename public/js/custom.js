@@ -65,5 +65,35 @@ function validateForm() {
 }
 
 /* *******Added by Priyanka */
+function validateForm() {
+    $(".alpha").each(function () {
+        var textPattern = /^\S+$/;
+        if (!textPattern.test($(this).val())) {
+            $(this).addClass("invalid");
+        } else {
+            $(this).removeClass("invalid");
+        }
+    });
+
+    $(".numeric").each(function () {
+        var numericPattern = /^\d*$/;
+        if (!numericPattern.test($(this).val())) {
+            $(this).addClass("invalid");
+        } else {
+            $(this).removeClass("invalid");
+        }
+    });
+
+    $(".form-error, .form-success").each(function () {
+        const isEmpty = $(this).val() === "";
+
+        if (!isEmpty) {
+            $(this).removeClass("form-error").addClass("form-success");
+        } else {
+            $(this).removeClass("form-success").addClass("form-error");
+        }
+    });
+}
+
 
 /* Ends here */
